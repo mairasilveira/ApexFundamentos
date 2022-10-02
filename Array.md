@@ -1,5 +1,4 @@
 # ARRAY
-> link:
 
 *Uma lista ou um array do Apex é um grupo ordenado de itens do mesmo tipo, como uma lista de compras. As variáveis armazenam um dado só (ex: String nomes = 'Maria';), o array armazena vários.*
 
