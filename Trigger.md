@@ -1,6 +1,6 @@
 # Trigger
-> Permitem que você execute ações personalizadas definidas antes ou depois de determinados eventos para registros no Salesforce, tais como: inserções, atualizações ou exclusões.
->> No flow (fluxo) ações poderão ser utilizadas quando um registro for criado, atualizado ou excluído. A trigger/código só será utilizado quando uma personalização da salesforce não for possível.
+> Permite que você execute ações personalizadas definidas antes ou depois de determinados eventos para registros no Salesforce, tais como: inserções, atualizações ou exclusões.
+>> No flow ações poderão ser utilizadas quando um registro for criado, atualizado ou excluído. A trigger só será utilizada se uma personalização da salesforce não for possível.
 >>> Na exceução de CREATE e UPDATE a ação pode ser realizada ANTES E DEPOIS, já o DELET a ação é executada antes de ser excluído
 
 | Syntax      | Description |

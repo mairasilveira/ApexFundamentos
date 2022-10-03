@@ -11,6 +11,7 @@ String CNPJ = '51.694.190/001-18';
     }
 ```
 
+## TERNÁRIO
 ## Condição ? (Valor SE Verdadeiro) : (Valor SE Falso)
 ```
 String CNPJ = '51.694.190/001-18';
