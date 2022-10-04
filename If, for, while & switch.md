@@ -63,7 +63,7 @@ do{
 }while(contador < 10);
 ```
 
-## SWITCH
+## SWITCH-WHEN
 
 ```
 String diaDaSemana = 'Domingo';
@@ -72,7 +72,7 @@ Switch on diaDaSemana {
 	when 'Domingo' {
 		System.debug('Dia de almoço na casa da sogra');
 	}
-	when 'Segunda' {
+	when 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta' {
 		System.debug('Dia útil');
 	}
 	//valor default
