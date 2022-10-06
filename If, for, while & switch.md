@@ -81,3 +81,15 @@ Switch on diaDaSemana {
 	}
 }
 ```
+
+## Declaração de interrupção (Break statement)
+> Utiliza-se a palavra *break* para sair de um loop. Ex:
+```
+Integer n;
+for (Integer i=1; i<=n; i++){
+	//procurar número na lista
+	if (//achar o número == true){
+		break;
+	}
+}
+```
