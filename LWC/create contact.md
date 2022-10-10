@@ -1,3 +1,19 @@
+# CLASSE
+```
+public with sharing class TesteInsertController {
+    @AuraEnabled
+    public static void testeInsert(){
+
+        List<Contact> contc = new List<Contact>();
+        //Cria três contatos francisco targa
+        for(Integer i=0;i<3;i++){
+            contc.add(new Contact(FirstName='francisco',LastName='targa'));
+      }
+        insert contc;
+    } 
+}
+```
+
 # HTML
 > Foram criados campos text, lookup, picklist, textarea para o componente. Ao clicar no botão é criado um contato
 

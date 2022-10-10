@@ -35,13 +35,22 @@ for(integer i; i<10; i++){
     System.debug('Valor da soma: ' + soma);
 }
 ```
-
-> FOR PARA PERCORRER ARRAY OU LISTA - nesse caso percorre o array coleção até terminar ele inteiro
+## FOR EACH - Itera sobre todos os elementos de uma lista ou SET
+> Neste caso percorre a lista teste inteira
 
 ```
-for(Integer num : coleção){
+List<Integer> teste = new List<Integer>{100, 200};
+
+for(Integer num : teste){
+	System.debug('número atual = ' + num);
 }
+
+
+->
+número atual = 100
+número atual = 200
 ```
+
 
 ## WHILE
 ```
@@ -82,7 +91,7 @@ Switch on diaDaSemana {
 }
 ```
 
-## Declaração de interrupção (Break statement)
+## BREAK - Declaração de interrupção
 > Utiliza-se a palavra *break* para sair de um loop. Ex:
 ```
 Integer n;
@@ -92,4 +101,26 @@ for (Integer i=1; i<=n; i++){
 		break;
 	}
 }
+```
+
+## CONTINUE - Pula a iteração do loop
+> Exemplo - para comer frango todos os dias da semana, exceto terça feira:
+```
+List<String> days = new List<String>{'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'};
+
+for (Integer i=0; i<days.size(); i++){
+	if(days.get(i)=='Tuesday') {
+		continue;
+	}
+	System.debug('It's ' + days.get(i) + '. Eat chicken');
+}
+
+
+-> 
+It's Monday. Eat chicken
+It's Wednesday. Eat chicken
+It's Thursday. Eat chicken
+It's Friday. Eat chicken
+It's Saturday. Eat chicken
+It's Sunday. Eat chicken
 ```
