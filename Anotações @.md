@@ -1,14 +1,5 @@
 # Anotações
 
-## @deprecated
-- Indicação que o pedaço de código está obsoleto.
-```
-@deprecated
-// Este método está obsoleto
-// Use play2020() instead
-public void play2019(){
-}
-```
 ## @AuraEnabled(cacheable=true)
 - Disponibiliza o método para ser utilizado dentro lightning.
 
@@ -22,11 +13,22 @@ public static List<Account> getAllAccount() {
 
 }
 ```
+## @wire
+
+## @deprecated
+- Indicação que o pedaço de código está obsoleto.
+```
+@deprecated
+// Este método está obsoleto
+// Use play2020() instead
+public void play2019(){
+}
+```
 ## @Future
 - Ajuda a criar métodos futuros
 
 ## @InvocableMethod
-- O método pode ser chamado a partir dos fluxos visuais
+- O método passará a poder ser chamado a partir dos fluxos visuais
 ```
 public class AnnotationsDemo {
 
@@ -38,6 +40,7 @@ public class AnnotationsDemo {
 ```
 
 ## @ InvocableVariable
+- A variável passará a poder ser chamada a partir dos fluxos visuais
 
 ## @IsTest
 - Indica que é um teste. Um método de teste PRECISA estar dentro de uma classe de teste, deve ser PUBLIC ou GLOBAL, STATIC e VOID
