@@ -70,6 +70,22 @@ nomes.set(índice, valor novo);
 nomes.set(1, 10); //substitui o item do índice 1 pelo numero 10
 ```
 
+### OBTER TODOS OS ITENS DA LISTA
+```
+List<Contact> lista = new List<Contact>();
+
+for(Contact var : lista){
+	System.debug(var)
+}
+```
+```
+List<Account> nomeLista = [SELECT Name, Title FROM Account];
+
+for(Account x : nomeLista){
+	System.debug("Nome: " + x.Name + " TItle: " + x.Title);
+}
+```
+
 # EXEMPLO
 ## CRIANDO UMA LISTA DO TIPO IMÓVEIS (Sobjects)
 ```
